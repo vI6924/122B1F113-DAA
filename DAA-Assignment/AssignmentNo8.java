@@ -1,7 +1,3 @@
-
-
-
-
 import java.util.*;
 
 class Node implements Comparable<Node> {
@@ -162,3 +158,19 @@ public class AssignmentNo8 {
         sc.close();
     }
 }
+
+/*
+-------------------- SAMPLE OUTPUT --------------------
+
+Enter number of cities: 4
+Enter cost matrix (use large number for no direct route):
+9999999 10 15 20
+10 9999999 35 25
+15 35 9999999 30
+20 25 30 9999999
+
+Optimal Delivery Route (SwiftShip): 0 1 3 2 0
+Minimum Total Delivery Cost: 80
+
+-------------------------------------------------------
+*/
