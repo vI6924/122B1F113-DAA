@@ -79,3 +79,34 @@ public class AssignmentNo1 {
         }
     }
 }
+
+
+
+/*
+-------------------- SAMPLE OUTPUT --------------------
+
+Before Sorting:
+Order_0 - 584913
+Order_1 - 120938
+Order_2 - 958341
+Order_3 - 431287
+Order_4 - 765129
+Order_5 - 291043
+Order_6 - 837194
+Order_7 - 104928
+Order_8 - 659324
+Order_9 - 382017
+
+After Sorting by Timestamp:
+Order_7 - 104928
+Order_1 - 120938
+Order_5 - 291043
+Order_9 - 382017
+Order_3 - 431287
+Order_8 - 659324
+Order_4 - 765129
+Order_6 - 837194
+Order_0 - 584913
+Order_2 - 958341
+-------------------------------------------------------
+*/
