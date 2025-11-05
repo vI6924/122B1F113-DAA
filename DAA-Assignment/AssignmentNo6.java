@@ -35,7 +35,7 @@ public class AssignmentNo6 {
         while (idx > 0 && w > 0) {
             if (dp[idx][w] != dp[idx - 1][w]) {
                 CargoItem it = items.get(idx - 1);
-                System.out.println("✅ Item " + it.id +
+                System.out.println(" Item " + it.id +
                         " | Weight: " + it.weight +
                         " | Utility: " + it.utility +
                         " | Perishable: " + (it.perishable ? "Yes" : "No"));
@@ -68,7 +68,7 @@ public class AssignmentNo6 {
     }
 
     public static void main(String[] args) {
-        System.out.println("🚚 SwiftCargo - Truck Loading Optimization (Knapsack with Perishables)");
+        System.out.println(" SwiftCargo - Truck Loading Optimization (Knapsack with Perishables)");
 
         List<CargoItem> items = new ArrayList<>();
         items.add(new CargoItem(1, 10, 60, true));
@@ -82,6 +82,21 @@ public class AssignmentNo6 {
         boostPerishableUtility(items);
 
         int maxUtility = knapsackDP(items, truckCapacity);
-        System.out.println("\numElements📦 Maximum Total Utility (using DP): " + maxUtility);
+        System.out.println("\numElements Maximum Total Utility (using DP): " + maxUtility);
     }
 }
+
+/* 
+-------------------- OUTPUT --------------------
+
+ SwiftCargo - Truck Loading Optimization (Knapsack with Perishables)
+
+Items loaded in the truck:
+ Item 5 | Weight: 15 | Utility: 90 | Perishable: Yes
+ Item 2 | Weight: 20 | Utility: 100 | Perishable: No
+ Item 1 | Weight: 10 | Utility: 72 | Perishable: Yes
+Total Weight Loaded: 45 kg
+
+numElements Maximum Total Utility (using DP): 262
+------------------------------------------------
+*/
