@@ -78,3 +78,16 @@ public class AssignmentNo2 {
         }
     }
 }
+
+/*
+-------------------- SAMPLE OUTPUT --------------------
+
+Sorted by RATING:
+The Dark Knight | 9.0 | 2008 | 8000000
+Inception | 8.8 | 2010 | 5000000
+Oppenheimer | 8.7 | 2023 | 6000000
+Interstellar | 8.6 | 2014 | 7000000
+Avengers: Endgame | 8.4 | 2019 | 9000000
+
+-------------------------------------------------------
+*/
