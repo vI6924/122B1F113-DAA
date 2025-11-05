@@ -221,3 +221,38 @@ public class AssignmentNo5 {
         sc.close();
     }
 }
+
+/*
+-------------------- SAMPLE OUTPUT --------------------
+
+Enter total number of stages: 3
+Enter node count in each stage (3 values): 2 3 1
+Enter number of edges: 5
+Enter each edge as: source destination cost
+0 2 3
+0 3 5
+1 2 4
+1 3 2
+3 5 6
+
+Optimal costs from Stage 0 nodes:
+Node 0: Cost = 8.000000
+Node 1: Cost = 8.000000
+
+Enter a source node (stage 0) to display path, or -1 to skip: 0
+Best path from 0 : 0 -> 2
+Total route cost: 8.000000
+
+Enter number of live edge cost updates (0 to finish): 1
+Enter update (u v multiplier): 0 2 0.5
+
+After updates, best costs from Stage 0 nodes:
+Node 0: Cost = 4.000000
+Node 1: Cost = 8.000000
+
+Enter a Stage 0 source node to view updated path (-1 to exit): 0
+Updated path from 0 : 0 -> 2
+Updated route cost: 4.000000
+
+-------------------------------------------------------
+*/
