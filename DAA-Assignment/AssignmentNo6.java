@@ -1,5 +1,6 @@
-import java.util.*;
-
+// Disater relif resource allocation use 0/1 knapsack approach to optimize essential supply allocation
+122B1F113
+import java.util.*; 
 class CargoItem {
     int id;
     int weight;
