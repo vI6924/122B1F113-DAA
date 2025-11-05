@@ -1,5 +1,5 @@
 // Universitytime table scheduling ,implement graph coloring technique to genrate conflict force and efficient time table
-122B1F113
+//122B1F113
 import java.util.*;
 
 public class AssignmentNo7 {
