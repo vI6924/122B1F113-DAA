@@ -64,3 +64,17 @@ public class AssignmentNo3 {
         System.out.println("\numElements🚤 Maximum total utility value carried: " + maxValue);
     }
 }
+
+/*
+-------------------- SAMPLE OUTPUT --------------------
+
+Selected items for transport:
+- Medical Kits (100%) | value = 500.0
+- Baby Formula (100%) | value = 180.0
+- Food Packets (100%) | value = 300.0
+- Drinking Water (33.333332%) | value = 66.666664
+
+🚤 Maximum total utility value carried: 1046.666664
+
+-------------------------------------------------------
+*/
